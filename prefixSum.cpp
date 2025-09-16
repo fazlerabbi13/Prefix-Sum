@@ -32,7 +32,7 @@ int main(){
         cin>>arr[i];
     }
 
-    vector<int> prefix = buildPrefixSum(arr);
+    // vector<int> prefix = buildPrefixSum(arr);
 
     for (int x : prefix) {
         cout << x << " "<< "\n";
