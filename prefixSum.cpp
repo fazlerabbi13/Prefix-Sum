@@ -38,8 +38,8 @@ int main(){
         cout << x << " "<< "\n";
     }
 
-    // cout << "Sum(1, 3): " << rangeSum(prefix, 1, 3) << "\n";
-    // cout << "Sum(0, 4): " << rangeSum(prefix, 0, 4) << "\n";
-    // cout << "Sum(2, 4): " << rangeSum(prefix, 2, 4) << "\n";
+    cout << "Sum(1, 3): " << rangeSum(prefix, 1, 3) << "\n";
+    cout << "Sum(0, 4): " << rangeSum(prefix, 0, 4) << "\n";
+    cout << "Sum(2, 4): " << rangeSum(prefix, 2, 4) << "\n";
     return 0;
 }
