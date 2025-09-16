@@ -15,12 +15,12 @@ vector<int> buildPrefixSum(const vector<int>& arr) {
 
 // Function to get sum in range [l, r]
 
-// int rangeSum(const vector<int>& prefix, int l, int r) {
-//     if (l == 0){
-//         return prefix[r];
-//     }
-//     return prefix[r] - prefix[l - 1];
-// }
+int rangeSum(const vector<int>& prefix, int l, int r) {
+    if (l == 0){
+        return prefix[r];
+    }
+    return prefix[r] - prefix[l - 1];
+}
 
 
 int main(){
